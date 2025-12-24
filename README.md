@@ -1,10 +1,10 @@
 # Yahoo Finance Stock Market Performance Case Study
 
-## 📊 Project Overview
+## Project Overview
 
 This project provides a comprehensive analysis of stock market performance for four major technology companies using data from Yahoo Finance. The analysis covers Apple (AAPL), Microsoft (MSFT), Netflix (NFLX), and Google (GOOG) over a three-month period.
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this case study are to:
 
@@ -13,7 +13,7 @@ The main objectives of this case study are to:
 3. **Measure volatility** - Assess the risk level and price fluctuation for each stock
 4. **Perform correlation analysis** - Examine relationships between different stock prices
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **pandas** - Data manipulation and analysis
@@ -22,7 +22,7 @@ The main objectives of this case study are to:
 - **plotly** - Interactive data visualizations
 - **Jupyter Notebook** - Interactive development environment
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Yahoo-Finance-Stock-Market-Performance-Case-Study/
@@ -30,7 +30,7 @@ Yahoo-Finance-Stock-Market-Performance-Case-Study/
 └── Yahoo_Finance_Stock_Market_Performance_Case_Study.ipynb
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ Make sure you have Python 3.x installed on your system. You can download it from
 
 Alternatively, you can open the notebook directly in [Google Colab](https://colab.research.google.com/) using the badge in the notebook.
 
-## 📈 Analysis Features
+## Analysis Features
 
 ### 1. Data Collection
 - Fetches historical stock data for the last 3 months
@@ -93,7 +93,7 @@ Alternatively, you can open the notebook directly in [Google Colab](https://cola
 - Netflix vs Google correlation with trend lines
 - OLS (Ordinary Least Squares) regression analysis
 
-## 📊 Key Insights
+## Key Insights
 
 The notebook provides insights into:
 - Which stocks show the strongest upward or downward trends
@@ -101,20 +101,20 @@ The notebook provides insights into:
 - The volatility levels of each stock (risk assessment)
 - Correlations between different tech stocks (portfolio diversification insights)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/NusratBegum/Yahoo-Finance-Stock-Market-Performance-Case-Study/issues).
 
-## 📝 License
+## License
 
 This project is available for educational and research purposes.
 
-## 👤 Author
+## Author
 
 **Nusrat Begum**
 - GitHub: [@NusratBegum](https://github.com/NusratBegum)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Yahoo Finance for providing the stock market data API
 - Plotly for interactive visualization capabilities
