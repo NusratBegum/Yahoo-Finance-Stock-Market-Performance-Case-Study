@@ -65,33 +65,92 @@ Alternatively, you can open the notebook directly in [Google Colab](https://cola
 ## Analysis Features
 
 ### 1. Data Collection
-- Fetches historical stock data for the last 3 months
-- Downloads data for AAPL, MSFT, NFLX, and GOOG
+
+The project fetches historical stock data for the last 3 months and downloads data for AAPL, MSFT, NFLX, and GOOG using the yfinance API.
+
+![Data Collection Code](images/code_data_collection.png)
+
+**Sample Data Preview:**
+
+![Data Sample](images/data_sample.png)
 
 ### 2. Data Processing
-- Concatenates data from multiple companies
-- Cleans and structures data for analysis
-- Resets indices for easier manipulation
+
+The data processing pipeline concatenates data from multiple companies, cleans and structures it for analysis, and resets indices for easier manipulation.
+
+![Data Processing Code](images/code_data_processing.png)
 
 ### 3. Visualizations
 
 #### Stock Price Trends
-- Line charts showing daily closing prices
-- Area charts with faceted views for each company
+
+Interactive visualizations showing daily closing prices with line charts and area charts with faceted views for each company.
+
+![Visualization Code](images/code_visualization.png)
+
+**Stock Performance Overview:**
+
+![Stock Performance](images/stock_performance_line.png)
+
+**Individual Company Stock Prices:**
+
+![Stock Price Area Charts](images/stock_price_area.png)
 
 #### Moving Averages
-- 10-day moving average (MA10)
-- 20-day moving average (MA20)
-- Comparison charts for each stock
+
+The analysis calculates 10-day moving average (MA10) and 20-day moving average (MA20) for price forecasting, with comparison charts for each stock.
+
+![Moving Average Code](images/code_moving_average.png)
+
+**Moving Average Analysis Results:**
+
+<details>
+<summary>Apple (AAPL) Moving Averages</summary>
+
+![AAPL Moving Average](images/moving_average_AAPL.png)
+</details>
+
+<details>
+<summary>Microsoft (MSFT) Moving Averages</summary>
+
+![MSFT Moving Average](images/moving_average_MSFT.png)
+</details>
+
+<details>
+<summary>Netflix (NFLX) Moving Averages</summary>
+
+![NFLX Moving Average](images/moving_average_NFLX.png)
+</details>
+
+<details>
+<summary>Google (GOOG) Moving Averages</summary>
+
+![GOOG Moving Average](images/moving_average_GOOG.png)
+</details>
 
 #### Volatility Analysis
-- Rolling window volatility calculations
-- Comparative volatility visualization across all companies
+
+Rolling window volatility calculations provide risk assessment and comparative volatility visualization across all companies.
+
+![Volatility Code](images/code_volatility.png)
+
+**Volatility Comparison:**
+
+![Volatility Analysis](images/volatility_analysis.png)
 
 #### Correlation Analysis
-- Apple vs Microsoft correlation with trend lines
-- Netflix vs Google correlation with trend lines
-- OLS (Ordinary Least Squares) regression analysis
+
+The analysis examines relationships between different stock prices using scatter plots with OLS (Ordinary Least Squares) regression trend lines.
+
+![Correlation Code](images/code_correlation.png)
+
+**Apple vs Microsoft Correlation:**
+
+![Apple Microsoft Correlation](images/correlation_apple_microsoft.png)
+
+**Netflix vs Google Correlation:**
+
+![Netflix Google Correlation](images/correlation_netflix_google.png)
 
 ## Key Insights
 
